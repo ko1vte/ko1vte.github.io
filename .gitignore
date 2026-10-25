@@ -1,11 +1,8 @@
-# Hugo build output
-/public/
-/resources/
-.hugo_build.lock
-
-# Hugo stats
-hugo_stats.json
-
-# OS
-Thumbs.db
 .DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml

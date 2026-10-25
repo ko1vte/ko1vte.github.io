@@ -1,0 +1,85 @@
+# Butterfly 主题配置（精简版，完整选项见 themes/hexo-theme-butterfly 内文档）
+
+# 导航栏
+nav:
+  logo: img/qigong.jpg
+  display_title: true
+  fixed: false
+
+# 菜单
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  GitHub: https://github.com/ko1vte || fab fa-github
+
+# 头像与侧边栏信息
+avatar:
+  img: img/qigong.jpg
+  effect: false
+
+social:
+  fab fa-github: https://github.com/ko1vte || Github
+
+# 打字机副标题
+subtitle:
+  enable: true
+  loop: true
+  effect: true
+  typed_option: ["廊下で転ぶと鼻血が出て、", "人生で転ぶと、", "涙が出るんだ。"]
+  sub:
+    - 欢迎来到我的 Blog
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2023
+  custom_text: © 2023 SU15VTE
+
+# 文章元信息
+post_meta:
+  page:
+    date_type: date
+    date_format: YYYY-MM-DD
+    categories: true
+    tags: true
+
+# 目录
+toc:
+  post: true
+  page: true
+  number: true
+  style_simple: false
+  scroll_percent: true
+
+# 站点图标
+favicon: img/qigong.jpg
+
+# 暗色模式
+darkmode:
+  enable: true
+  button: true
+
+# 文章版权
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+
+# 代码块
+code_word_wrap: false
+highlight_theme: light
+
+# 评论：关闭
+comments:
+  use: false
+
+# 关闭第三方插件（默认即是关闭，显式声明更清楚）
+aplayerInject:
+  enable: false
+fireworks:
+  enable: false
+
+# 本地搜索：关闭（保持简单）
+local_search:
+  enable: false
