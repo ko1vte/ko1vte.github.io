@@ -18,6 +18,9 @@ avatar:
   img: img/qigong.jpg
   effect: false
 
+# 首页顶部横幅图
+index_img: img/touhou.jpg
+
 social:
   fab fa-github: https://github.com/ko1vte || Github
 
