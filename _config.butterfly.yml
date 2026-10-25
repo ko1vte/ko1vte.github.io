@@ -25,13 +25,19 @@ social:
   fab fa-github: https://github.com/ko1vte || Github
 
 # 打字机副标题
+# 注意：Butterfly 5.x 中 sub = 显示的文字列表；typed_option = 打字机参数（非文字）
 subtitle:
   enable: true
   loop: true
-  effect: true
-  typed_option: ["廊下で転ぶと鼻血が出て、", "人生で転ぶと、", "涙が出るんだ。"]
+  effect: false
   sub:
-    - 欢迎来到我的 Blog
+    - 廊下で転ぶと鼻血が出て、
+    - 人生で転ぶと、
+    - 涙が出るんだ。
+  typed_option:
+    typeSpeed: 150
+    backSpeed: 50
+    startDelay: 300
 
 # 页脚
 footer:
